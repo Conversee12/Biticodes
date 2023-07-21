@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biticodes</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="Logo.png" />
+    </div>
+    <div class="container">
+      <nav class="nav-links">
+        <a href="#">ABOUT US</a>
+        <a href="#">CONTACT US</a>
+        <a href="#">LOGIN</a>
+      </nav>
+      <div class="language">
+        <select id="languageSelect">
+          <option value="en">English</option>
+          <option value="es">Spanish</option>
+          <option value="fr">French</option>
+        </select>
+      </div>
+      <div class="burger-menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="contact-form">
+      <h2>Registration</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+          <div class="error-message" id="firstNameError"></div>
+        </div>
+        <div class="form-group">
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+          <div class="error-message" id="lastNameError"></div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email Address" required>
+          <div class="error-message" id="emailError"></div>
+        </div>
+        <div class="form-group phone">
+          <input class="phone" type="tel" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" required>
+          <div class="error-message" id="phoneNumberError"></div>
+        </div>
+        <button type="submit">REGISTER SECURELY NOW</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Login</a>
+    </div>
+    <div class="footer-content">
+      <div class="footer-content-text">
+      <p>
+        We operate with multiple 3rd parties and may pass your personal information not only to the firm described on the site, but also to other 3rd parties, including non-affiliated crypto-currency trading affiliates, and transfer or release your private data for marketing or business purposes. These third parties may use this data to contact you or to carry out their own business operations and purposes.</p>
+        <p>Key note on risk: Trading can produce large profits; however, it also involves the risk of losing some or all of the funds, and should be contemplated by the initial investors. Approximately 70% of investors will eventually lose money. Please read our terms and conditions and disclaimer page carefully before investing.</p>
+      </div>
+        <div class="contact-info">
+          <a href="https://twitter.com"><img src="twitter.png" alt="Twitter Icon"></a>
+          <p>+447418358115</p><br>
+        </div>
+    </div>
+    <div class="footer-end">
+      <div class="footer-left">
+        <p>
+          Copyrights © <br>
+          2022 All Rights Reserved. <br>
+          @biticodes.com
+        </p>
+      </div>
+      <div class="footer-middle">
+        <p>
+          L.P.C Funnels PTE. LTD <br>
+          Ang Mo Kio Avenue 5 #01-01, #01-07/11, #02-02/03 Singapore
+        </p>
+      </div>
+      <div class="footer-right">
+        <p>
+          <a href="#">Privacy Policy</a> <br>
+          <a href="#">Terms of Use</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/validator/13.7.0/validator.min.js"></script>
+
+</body>
+</html>
